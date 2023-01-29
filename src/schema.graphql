@@ -1,0 +1,17 @@
+type Book {
+    title: String
+    author: String
+}
+
+type LoginResponse {
+    token: String
+}
+
+type Query {
+    books: [Book!]!
+    booksAuthed: [Book!]!
+}
+
+type Mutation {
+    login(email: String!, password: String!): LoginResponse!
+}
