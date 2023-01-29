@@ -1,7 +1,7 @@
 {
-  "name": "bun-express",
+  "name": "bun-apollo-express",
   "version": "1.0.0",
-  "description": "Bun Express Server",
+  "description": "Bun Apollo Express Server",
   "main": "src/index.js",
   "scripts": {
     "start": "bun src/index.js"
